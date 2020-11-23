@@ -3,9 +3,7 @@
 use Illuminate\Database\Eloquent\Model as Eloquent ;
 
 class User  extends  Eloquent {
-    public $name;
-
-    public $timestamps = [];
-
-    protected $fillable = ['name','email'];
+    public  $name ;
+    public $timestamps ;
+    protected $fillable = ['name'];
 }

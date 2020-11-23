@@ -1,0 +1,58 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../../../public/css/index.css">
+</head>
+<body>
+<H1>Zalogowano użytkownika</H1>
+    <td><?php echo  $data['userData']['email'];?></td>
+
+<?php if($data['userData']['passwordUpdate']==0 && !empty($data['userData']['passwordUpdate'])) : ?>
+<H1>Bład.Hasło nie zmienione poprawnie.Spróbuj jeszcze raz.  </H1>
+<?php endif; ?>
+
+<p>Zmień hasło</p>
+<form action="../../../public/login" method="post">
+    <input type="hidden" name="email"  value="<?php echo  $data['userData']['email'];?>" required />
+    <p><b>stare hasło:</b> <input type="password" name="oldPassword" required /><br />
+        <b>nowe:</b> <input type="password" name="newPassword" required /><br>
+    <p><input type="submit" name="method" value="Change password" id="changePassword"></p>
+</form>
+<!-- and so on... -->
+
+
+
+
+<table class="styled-table">
+    <thead>
+    <tr>
+        <th>Nazwa pliku</th>
+        <th>Nazwa piosenki</th>
+        <th>isrc</th>
+        <th>autor</th>
+        <th>wykonawca</th>
+        <th>Autor opracownia</th>
+        <th>time</th>
+    </tr>
+    </thead>
+    <tbody>
+    <?php foreach($data['songs'] as $song): ?>
+    <tr>
+        <td><?php echo  $song['name_file'];?></td>
+        <td><?php echo  $song['name_song'];?></td>
+        <td><?php echo  $song['isrc'];?></td>
+        <td><?php echo  $song['writer'];?></td>
+        <td><?php echo  $song['author'];?></td>
+        <td><?php echo  $song['who_add'];?></td>
+        <td><?php echo  $song['time'];?></td>
+
+    </tr>
+    <!-- and so on... -->
+    <?php endforeach; ?>
+    </tbody>
+
+</table>
+</body>
+</html>

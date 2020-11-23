@@ -225,7 +225,6 @@ class Builder
      */
     public function select($columns = ['*'])
     {
-
         $this->columns = [];
         $this->bindings['select'] = [];
         $columns = is_array($columns) ? $columns : func_get_args();
@@ -2245,7 +2244,6 @@ class Builder
      */
     public function get($columns = ['*'])
     {
-
         return collect($this->onceWithColumns(Arr::wrap($columns), function () {
             return $this->processor->processSelect($this, $this->runSelect());
         }));

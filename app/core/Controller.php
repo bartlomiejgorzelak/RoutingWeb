@@ -11,4 +11,9 @@ class  Controller{
 
        require_once '../app/views/' . $view . '.html';
     }
+
+    public function render($filename, array $arguments = array())
+    {
+        echo $this->getHTML($filename, $arguments);
+    }
 }

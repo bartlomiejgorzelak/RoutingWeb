@@ -9,6 +9,10 @@ class Contact extends Controller
     }
 
     public function phone(){
+
+        if ( isset( $_POST['submit'] ) ) {
+            die(var_dump('dfd'));
+        }
         echo 'contact by me';
     }
 }
