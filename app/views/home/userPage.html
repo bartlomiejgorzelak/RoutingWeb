@@ -13,17 +13,41 @@
 <H1>Bład.Hasło nie zmienione poprawnie.Spróbuj jeszcze raz.  </H1>
 <?php endif; ?>
 
+
+
 <p>Zmień hasło</p>
 <form action="../../../public/login" method="post">
     <input type="hidden" name="email"  value="<?php echo  $data['userData']['email'];?>" required />
     <p><b>stare hasło:</b> <input type="password" name="oldPassword" required /><br />
         <b>nowe:</b> <input type="password" name="newPassword" required /><br>
-    <p><input type="submit" name="method" value="Change password" id="changePassword"></p>
+    <p><input type="submit" name="method" value="Change password" ></p>
 </form>
 <!-- and so on... -->
 
 
 
+
+
+
+<?php if($data['file']['wrongUpload']==1 && !empty($data['file']['wrongUpload'])) : ?>
+<H1>Zły format pliku  </H1>
+<?php endif; ?>
+
+<?php if($data['file']['wrongUpload']==1 && !empty($data['file']['wrongUpload'])) : ?>
+<H1>dodawanei pliku nie powiodło się.Spróbuj jeszcze raz  </H1>
+<?php endif; ?>
+<form action="../../../public/upload" method="post" enctype="multipart/form-data">
+    Dodaj nowy utwór :
+    <input type="hidden" name="email"  value="<?php echo  $data['userData']['email'];?>" required />
+    <p><b>Wybierz plik audio</b><input type="file" accept="audio/*" name="name_file" required></p>
+     <p><b>Nazwa piosenki</b><input type="text" name="name_song" required></p>
+     <p><b>isrc</b><input type="text" name="isrc" required></p>
+     <p><b>autor</b><input type="text" name="writer" required></p>
+     <p><b>wykonawca</b><input type="text" name="author" required></p>
+     <p><b>Autor opracownia</b><input type="text" name="who_add" required></p>
+    <p><b>Czas trwania [sek]</b><input type="number" name="time" required></p>
+     <p><input type="submit" value="Add" name="submit"></p>
+</form>
 
 <table class="styled-table">
     <thead>
@@ -35,6 +59,7 @@
         <th>wykonawca</th>
         <th>Autor opracownia</th>
         <th>time</th>
+        <th>play</th>
     </tr>
     </thead>
     <tbody>
@@ -47,6 +72,10 @@
         <td><?php echo  $song['author'];?></td>
         <td><?php echo  $song['who_add'];?></td>
         <td><?php echo  $song['time'];?></td>
+        <td>  <audio controls id="linkAudio"  controls style="width:50px;" controls style="height:50px;" >
+            <source src=$song['blob'] type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio></td>
 
     </tr>
     <!-- and so on... -->
@@ -54,5 +83,8 @@
     </tbody>
 
 </table>
+
 </body>
 </html>
+
+
