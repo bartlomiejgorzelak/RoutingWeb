@@ -120,7 +120,6 @@ class Login extends Controller
                 return $this->view('home/index', $data);
             }
         }
-        echo 'contact by me';
     }
     
 }
