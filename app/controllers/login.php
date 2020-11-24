@@ -43,6 +43,7 @@ class Login extends Controller
             $data = $this->userModel::where(function ($query) use ($email) {
                 $query->where('email', '=', $email);
             })->get()->toArray();
+
             //werfikacja hasła
             if (!empty($data['0']['password']) && password_verify($password, $data['0']['password'])) {
                 if (!empty($data)) {
@@ -54,7 +55,6 @@ class Login extends Controller
                     return $this->view('home/userPage', $data);
                 }
             } else {
-
                 $data = array(
                     "userData" => array(
                         "email" => $email,

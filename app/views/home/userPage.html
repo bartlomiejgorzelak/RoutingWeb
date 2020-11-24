@@ -73,7 +73,7 @@
         <td><?php echo  $song['who_add'];?></td>
         <td><?php echo  $song['time'];?></td>
         <td>  <audio controls id="linkAudio"  controls style="width:50px;" controls style="height:50px;" >
-            <source src=$song['blob'] type="audio/mpeg">
+            <source src="<?php echo  $song['blob'];?>" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio></td>
 

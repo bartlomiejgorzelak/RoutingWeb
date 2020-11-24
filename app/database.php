@@ -6,10 +6,10 @@ $capsule = new DB();
 
 $capsule->addConnection([
     'driver'=>'mysql',
-    'host'=>'127.0.0.1',
-    'username'=>'root',
-    'password'=>'root',
-    'database'=>'website',
+    'host'=>'remotemysql.com:3306',
+    'username'=>'z8zEdHoV56',
+    'password'=>'RWiJmIE68g',
+    'database'=>'z8zEdHoV56',
     'charset'=>'utf8',
     'collation'=>'utf8_unicode_ci',
     'prefix'=>'',

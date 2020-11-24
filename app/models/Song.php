@@ -3,6 +3,7 @@
 use Illuminate\Database\Eloquent\Model as Eloquent ;
 
 class Song  extends  Eloquent {
+    public $table = 'Songs';
     public  $name_file;
     public  $name_song;
     public  $isrc ;

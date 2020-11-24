@@ -21,8 +21,130 @@
   <component name="ChangeListManager">
     <list default="true" id="3f46e08f-7e56-4869-9515-fca902b5d0b4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/contact.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/upload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/Song.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Song.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/changelog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/demos/demo.audioinfo.class.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/demos/demo.basic.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/demos/demo.browse.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/demos/demo.cache.dbm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/demos/demo.cache.mysql.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/demos/demo.dirscan.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/demos/demo.joinmp3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/demos/demo.mimeonly.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/demos/demo.mp3header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/demos/demo.mysqli.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/demos/demo.simple.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/demos/demo.simple.write.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/demos/demo.write.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/demos/demo.zip.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/demos/getid3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/demos/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/dependencies.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/extension.cache.dbm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/extension.cache.mysql.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/extension.cache.mysqli.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/extension.cache.sqlite3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/getid3.lib.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/getid3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.archive.gzip.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.archive.hpk.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.archive.rar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.archive.szip.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.archive.tar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.archive.xz.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.archive.zip.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio-video.asf.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio-video.bink.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio-video.flv.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio-video.ivf.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio-video.matroska.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio-video.mpeg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio-video.nsv.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio-video.quicktime.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio-video.real.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio-video.riff.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio-video.swf.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio-video.ts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio-video.wtv.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio.aa.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio.aac.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio.ac3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio.amr.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio.au.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio.avr.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio.bonk.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio.dsdiff.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio.dsf.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio.dss.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio.dts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio.flac.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio.la.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio.lpac.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio.midi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio.mod.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio.monkey.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio.mp3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio.mpc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio.ogg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio.optimfrog.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio.rkau.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio.shorten.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio.tak.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio.tta.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio.voc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio.vqf.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.audio.wavpack.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.graphic.bmp.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.graphic.efax.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.graphic.gif.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.graphic.jpg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.graphic.pcd.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.graphic.png.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.graphic.svg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.graphic.tiff.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.misc.cue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.misc.exe.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.misc.iso.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.misc.msoffice.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.misc.par2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.misc.pdf.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.tag.apetag.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.tag.id3v1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.tag.id3v2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.tag.lyrics3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/module.tag.xmp.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/write.apetag.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/write.id3v1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/write.id3v2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/write.lyrics3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/write.metaflac.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/write.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/write.real.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/getid3/write.vorbiscomment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/helperapps/cygwin1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/helperapps/head.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/helperapps/metaflac.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/helperapps/readme.helperapps.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/helperapps/shorten.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/helperapps/vorbiscomment.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/licenses/license.commercial.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/licenses/license.gpl-10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/licenses/license.gpl-20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/licenses/license.gpl-30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/licenses/license.lgpl-30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/licenses/license.mpl-20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getID3-1.9.20/structure.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +225,7 @@
       <updated>1602491635141</updated>
       <workItem from="1602491636220" duration="10358000" />
       <workItem from="1606088707732" duration="2470000" />
-      <workItem from="1606115320987" duration="48893000" />
+      <workItem from="1606115320987" duration="57712000" />
     </task>
     <servers />
   </component>
@@ -131,22 +253,22 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2334" y="175" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602491906431" />
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1606129142442">
+    <state width="1876" height="278" key="GridCell.Tab.0.bottom" timestamp="1606182490827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606129142442" />
-    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1606129142442">
+    <state width="1876" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606182490827" />
+    <state width="1876" height="278" key="GridCell.Tab.0.center" timestamp="1606182490827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606129142442" />
-    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1606129142442">
+    <state width="1876" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606182490827" />
+    <state width="1876" height="278" key="GridCell.Tab.0.left" timestamp="1606182490827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606129142442" />
-    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1606129142442">
+    <state width="1876" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606182490827" />
+    <state width="1876" height="278" key="GridCell.Tab.0.right" timestamp="1606182490827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606129142442" />
+    <state width="1876" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606182490827" />
     <state x="2671" y="243" key="NewPhpClassDialog" timestamp="1602500642083">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
